@@ -7,7 +7,6 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://metrowind.github.io/histamine-food/" />
     <meta property="og:description" content="对组胺敏感人群的建议" />
-
     <style>
       body
       {
@@ -25,18 +24,27 @@
       section.Grid > ul
       {
           list-style: none;
-          display: flex;
-          flex-wrap: wrap;
           text-align: center;
           padding-left: unset;
-          align-items: center;
-          gap: 0.5cm;
-          justify-content: center;
+          line-height: 3.5;
       }
 
       section.Grid > ul > li
       {
           width: 5rem;
+          display: inline-block;
+          line-height: 1.4;
+          vertical-align: middle;
+      }
+
+      .Illustration
+      {
+          float: right;
+      }
+
+      .Illustration > img
+      {
+          max-width: 2cm;
       }
 
       #Notes
@@ -49,6 +57,7 @@
   <body>
     <section class="Grid">
       <h2>高组胺食物，远离！</h2>
+      <div class="Illustration"><img src="imgs/HideOfScars.webp" /></div>
       <ul>
         <li>所有发酵类食物</li>
         <li>老奶酪</li>
@@ -90,6 +99,7 @@
     </section>
     <section class="Grid">
       <h2>低组胺食物，好！</h2>
+      <div class="Illustration"><img src="imgs/Vaultboywink.webp" /></div>
       <ul>
         <li>新鲜肉类</li>
         <li>米和谷物制品</li>
